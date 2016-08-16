@@ -35,18 +35,18 @@ namespace TechnicalApp
 			string driverOcc = Console.ReadLine();
 
 			if (driverOcc == "Chauffer")		//Increases insurance premium by 10% if 
-			{									//drivers job is Chauffer
+			{					//drivers job is Chauffer
 				Premium += (Premium * .1);
 			}
 			else if (driverOcc == "Accountant")	//Decrease insurance premium by 10% if
-			{									//driver is an Accountant
+			{					//driver is an Accountant
 				Premium -= (Premium * .1);
 			}
 			else
 			{
 				Console.WriteLine("Invalid Occupation");	//Lets the user know that an incorrect
-				job();										//occupation has been entered and runs
-			}												//the method again
+				job();						//occupation has been entered and runs
+			}							//the method again
 		}
 
 		//Method to check the drivers age against the start date of the insurance policy
@@ -61,8 +61,8 @@ namespace TechnicalApp
 			Console.WriteLine("Please Enter the Policy Start Date in Format MM/DD/YYYY");   //Asks the user to input the policy
 			policyStartDate = DateTime.Parse(Console.ReadLine());                           //start date
 
-			if (policyStartDate < today)					//Checks the policy start date compared to todays date
-			{												//If policy start date is before todays date then an error
+			if (policyStartDate < today)				//Checks the policy start date compared to todays date
+			{							//If policy start date is before todays date then an error
 				Console.WriteLine("Start Date of Policy");	//message is displayed
 			}
 
@@ -73,8 +73,8 @@ namespace TechnicalApp
 
 			Console.WriteLine(age);
 
-			if (age <= 25)					//if age is less than or equal to 25 then total insurance premium is 
-			{                               //increased by 20%.
+			if (age <= 25)				//if age is less than or equal to 25 then total insurance premium is 
+			{                               	//increased by 20%.
 				Premium += (premium * .2);
 			}
 			else
@@ -82,11 +82,11 @@ namespace TechnicalApp
 				Premium -= (premium * .1);	//if age is greater than 25 then insurance premium is reduced by 10%
 			}
 
-			if (age < 21) 									//if age is less than 21 then error message is displayed
+			if (age < 21) 				//if age is less than 21 then error message is displayed
 			{
 				Console.WriteLine("Age of Youngest Driver");
 			}
-			else if (age > 75)								//if age is greater than 75 then error message is displayed
+			else if (age > 75)			//if age is greater than 75 then error message is displayed
 			{
 				Console.WriteLine("Age of Oldest Driver");
 			}
