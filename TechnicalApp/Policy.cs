@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace TechnicalApp
 {
@@ -19,13 +19,12 @@ namespace TechnicalApp
 			}
 		}
 
-
+		//Main method for the policy
 		public static void Main(string[] args)
 		{
-			
-			Driver.name();
-			Driver.job();
-			Driver.policyStartAge();
+			Driver.name();			//Calling 'name' method from 'Driver' class
+			Driver.job();			//Calling 'job' method from 'Driver' class
+			Driver.policyStartAge();	//Calling 'policyStartAge' method from 'Driver' class
 		}
 	}
 }
