@@ -1,30 +1,22 @@
+using System.Windows.Forms;
 using System;
-
 namespace TechnicalApp
 {
 
-	class Policy
+    class Policy
 	{
-		
-		public static double Premium
+      
+        //Main method for the policy
+        [STAThread]
+        public static void Main(string[] args)
 		{
-			get
-			{
-				return Driver.Premium;
-			}
+            Application.EnableVisualStyles();
+            TechAppForm form1 = new TechAppForm();
+            form1.ShowDialog();
+            
 
-			set
-			{
-				Driver.Premium = value;
-			}
-		}
 
-		//Main method for the policy
-		public static void Main(string[] args)
-		{
-			Driver.name();			//Calling 'name' method from 'Driver' class
-			Driver.job();			//Calling 'job' method from 'Driver' class
-			Driver.policyStartAge();	//Calling 'policyStartAge' method from 'Driver' class
+
 		}
 	}
 }

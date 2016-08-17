@@ -1,4 +1,5 @@
 using System;
+using System.Windows.Forms;
 namespace TechnicalApp
 {
 	public class Driver
@@ -6,7 +7,6 @@ namespace TechnicalApp
 		//Declaring starting insurance premium
 		private static double premium = 500;
 		public static string driverName;
-
 
 		public static double Premium
 		{
