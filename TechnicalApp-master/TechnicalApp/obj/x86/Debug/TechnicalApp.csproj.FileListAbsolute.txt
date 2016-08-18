@@ -1,0 +1,7 @@
+C:\Users\Sony\Documents\Graeme\TechnicalApp-master\TechnicalApp\obj\x86\Debug\TechnicalApp.csprojResolveAssemblyReference.cache
+C:\Users\Sony\Documents\Graeme\TechnicalApp-master\TechnicalApp\obj\x86\Debug\TechnicalApp.TechAppForm.resources
+C:\Users\Sony\Documents\Graeme\TechnicalApp-master\TechnicalApp\obj\x86\Debug\TechnicalApp.csproj.GenerateResource.Cache
+C:\Users\Sony\Documents\Graeme\TechnicalApp-master\TechnicalApp\bin\Debug\TechnicalApp.exe
+C:\Users\Sony\Documents\Graeme\TechnicalApp-master\TechnicalApp\bin\Debug\TechnicalApp.pdb
+C:\Users\Sony\Documents\Graeme\TechnicalApp-master\TechnicalApp\obj\x86\Debug\TechnicalApp.exe
+C:\Users\Sony\Documents\Graeme\TechnicalApp-master\TechnicalApp\obj\x86\Debug\TechnicalApp.pdb
